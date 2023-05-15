@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ava Template</title>
+    <title>Invoice Zero</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -12,54 +12,19 @@
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
         <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Ava</title>
-                                    <defs>
-                                        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="logo-gradient-b">
-                                            <stop stop-color="#39D8C8" offset="0%"/>
-                                            <stop stop-color="#BCE4F4" offset="47.211%"/>
-                                            <stop stop-color="#838DEA" offset="100%"/>
-                                        </linearGradient>
-                                        <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-a"/>
-                                        <linearGradient x1="23.065%" y1="25.446%" y2="100%" id="logo-gradient-c">
-                                            <stop stop-color="#1274ED" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#1274ED" offset="100%"/>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="logo-gradient-d" fill="#fff">
-                                            <use xlink:href="#logo-gradient-a"/>
-                                        </mask>
-                                        <use fill="url(#logo-gradient-b)" xlink:href="#logo-gradient-a"/>
-                                        <path fill="url(#logo-gradient-c)" mask="url(#logo-gradient-d)" d="M-16-16h32v32h-32z"/>
-                                    </g>
-                                </svg>
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
+            <header id="header" class="fixed-top ">
+                <div class="container d-flex align-items-center">
+                   <a href="index.html" class="logo me-auto"><img src="img\Icon.png" alt="" class="img-fluid"></a>
         </header>
 
         <main>
             <section class="hero text-center">
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title h2-mobile mt-0 is-revealing">Landing template for startups</h1>
-                        <p class="hero-paragraph is-revealing">Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever.</p>
-                        <div class="hero-form newsletter-form field field-grouped is-revealing">
-                            <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
-                            </div>
-                            <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="#">Get early access</a>
-                            </div>
-                        </div>
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing">Invoice Zero</h1> 
+                        <p class="hero-paragraph is-revealing">Get your finances in order with our easy-to-use personal finance system the simple way to budget, save, and invest!</p> <p>The simple way to budget, save, and invest!</p>
+                        <div class="hero-form newsletter-form field field-grouped is-revealing"></div>
+
                         <div class="hero-browser">
                             <div class="bubble-3 is-revealing">
                                 <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -76,6 +41,7 @@
                                     </g>
                                 </svg>
                             </div>
+                            
                             <div class="bubble-4 is-revealing">
                                 <svg width="230" height="235" viewBox="0 0 230 235" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <defs>
@@ -180,7 +146,7 @@
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                        <img src="img\Icon.png" alt="" />
                                             <g fill="none" fill-rule="evenodd">
                                                 <path d="M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".24" fill="#A0A6EE"/>
                                                 <path d="M26 54l28-28" stroke="#838DEA" stroke-width="2" stroke-linecap="square"/>
@@ -189,21 +155,21 @@
                                             </g>
                                         </svg>
                                     </div>
-                                    <h3 class="feature-title">Discover</h3>
+                                    <h3 class="feature-title">Track Your Expenses</h3>
                                     <p class="text-sm">Where text is visible, people tend to focus on the textual content rather than upon overall presentation.</p>
                                 </div>
                             </div>
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                        <img src="img\Icon.png" alt="" />
                                             <g fill="none" fill-rule="evenodd">
                                                 <path d="M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".24" fill="#75ABF3"/>
                                                 <path d="M34 52V35M40 52V42M46 52V35M52 52V42M28 52V28" stroke="#4D8EF7" stroke-width="2" stroke-linecap="square"/>
                                             </g>
                                         </svg>
                                     </div>
-                                    <h3 class="feature-title">Discover</h3>
+                                    <h3 class="feature-title">Set Budgets</h3>
                                     <p class="text-sm">Where text is visible, people tend to focus on the textual content rather than upon overall presentation.</p>
                                 </div>
                             </div>
@@ -212,7 +178,7 @@
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                        <img src="img\Icon.png" alt="" />
                                             <g fill="none" fill-rule="evenodd">
                                                 <path d="M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".32" fill="#FF97AC"/>
                                                 <path stroke="#FF6D8B" stroke-width="2" stroke-linecap="square" d="M49 45h6V25H35v6M43 55h2v-2M25 53v2h2M27 35h-2v2"/>
@@ -221,14 +187,14 @@
                                         </svg>
 
                                     </div>
-                                    <h3 class="feature-title">Discover</h3>
+                                    <h3 class="feature-title">Visualize Your Finances</h3>
                                     <p class="text-sm">Where text is visible, people tend to focus on the textual content rather than upon overall presentation.</p>
                                 </div>
                             </div>
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                        <img src="img\Icon.png" alt="" />
                                             <g transform="translate(24 25)" fill="none" fill-rule="evenodd">
                                                 <path d="M24.066 36.627c6.628 0 10.087-16.79 10.087-23.418C34.153 6.582 29.128 4 22.501 4 15.874 4 0 17.507 0 24.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".32" fill="#A0EEE5"/>
                                                 <circle stroke="#39D8C8" stroke-width="2" stroke-linecap="square" cx="5" cy="4" r="4"/>
@@ -236,7 +202,7 @@
                                             </g>
                                         </svg>
                                     </div>
-                                    <h3 class="feature-title">Discover</h3>
+                                    <h3 class="feature-title">Create Goals</h3>
                                     <p class="text-sm">Where text is visible, people tend to focus on the textual content rather than upon overall presentation.</p>
                                 </div>
                             </div>
@@ -252,13 +218,6 @@
                             <h2 class="section-title mt-0">Stay in the know</h2>
                             <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation</p>
                         </div>
-                        <div class="footer-form newsletter-form field field-grouped is-revealing">
-                            <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
-                            </div>
-                            <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="#">Get early access</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -270,8 +229,9 @@
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
                         <a href="#">
-                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                <title>Ava</title>
+                            <img src="img\Icon.png" alt="" />
+                                <title>Invoice Zero</title>
+                        
                                 <defs>
                                     <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-footer-a"/>
                                     <linearGradient x1="50%" y1="50%" y2="100%" id="logo-gradient-footer-b">
@@ -330,7 +290,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2018 Ava, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2023 Invoice Zero, all rights reserved</div>
                 </div>
             </div>
         </footer>
