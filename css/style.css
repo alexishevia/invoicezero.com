@@ -315,7 +315,7 @@ html {
   }
   
   body {
-    color: #5B6F82;
+    color: #212427;
     font-size: 1rem;
   }
   
@@ -423,15 +423,15 @@ html {
   }
   
   .text-light {
-    color: rgba(255,255,255,0.8);
+    color: rgba(63, 53, 53, 0.8);
   }
   
   .text-light a {
-    color: rgba(255,255,255,0.8);
+    color: rgba(63, 53, 53, 0.8);
   }
   
   .text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light .h1,.text-light .h2,.text-light .h3,.text-light .h4,.text-light .h5,.text-light .h6 {
-    color: #fff !important;
+    color: #292626 !important;
   }
   
   .text-sm {
@@ -1424,7 +1424,7 @@ html {
     position: relative;
     display: flex;
     justify-content: center;
-    background: #fff;
+ 
     border-radius: 50%;
   }
   
